@@ -8,6 +8,7 @@ $ git commit
 $ git remote add origin 'your_url_name'
 $ git push -u origin master
 
- # after changes 
- $ git add  --a
- $ git commit --a
+ # after changes  / $ git status
+ $ git add .
+ $ git commit -m "Enter You Msg with Comment"
+ $ git push -u  origin master
