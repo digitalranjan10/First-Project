@@ -1,61 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Landing Page</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD APPLICATION</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    .header{
+      background-color:gray ;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- header section -->
-<div class="header">
-  <a href="#default" class="logo">CRUD APPLICATION</a>
-  <div class="header-right">
-    <a href="#">INTERNSHIP</a>
-    <a href="#">TRANING</a>
-    <button class="button">Login</button>
-    <button class="button">Register</button>
-  </div>
-</div>
-
-<!-- slider section -->
-<div style="padding-left:20px">
-  <div class="Pheader">
+  <center>
+    <div class="header">
+      <h2>CRUD APPLICATION</h2>
+    </div>
+  </center>
+  <hr>
+  <div class="container">
     <form>
-           <h1>This is My Frist Crud Application</h1>
-          <div class="from-box">
-            
-             <input class="search-field skills" type="text" name="search" placeholder="skills, Keywords..."/>
-
-
-
-             
-      <button class="search-btn" type="button">Search</button>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name" >
+       
       </div>
-
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="age" class="form-control" id="age" >
+       
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile</label>
+        <input type="mobile" class="form-control" id="mobile" >
+       
+      </div>
+      
+       <center>
+        <button type="submit" class="btn btn-primary">Submit</button>
+       </center> 
     </form>
-    
-
-
   </div>
-</div>
-
-<!-- internship catogery section -->
-
-<section>
-    <hr>
-    <center><h1>Internships in popular cities</h1>This is git  by me</center>
-
-    <div class="lft"> 
-      <h1>left side</h1>
-
-    </div>
-    <div class="ri8"> 
-      <h1>Right side</h1>
-
-    </div>
-
-</section>
 
 </body>
 </html>
